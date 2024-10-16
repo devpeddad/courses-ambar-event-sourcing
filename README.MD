@@ -77,7 +77,7 @@ Comamnd (Read from EventStore/ReadModelStore, write back to EventStore)
 
 Reaction (Event from EventStore, write back to EventStore)
   -> [EventStore(Event)] -> [Build some state (EventStore Aggregate)] -> [Perform Validations (Aggregate, ReadModels)] -> 
-  [Record whatever happened (New Event)] -> [EventStore]
+  [Record whatever happened (New Event)] -> [EventStore] 
 
 
 Projections (Read from ReadModelStore, write to ReadModelStore)
